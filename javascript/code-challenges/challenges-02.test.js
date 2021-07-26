@@ -90,10 +90,10 @@ forLoopTwoToThe function from challenge 4, but uses forEach instead of a for loo
 
 const forEachTwoToThe = (arr) => {
   // Solution code here...
-  let same= [];
-  arr.forEach((element) => {
-    same.push(Math.pow(element, 3));
-  });
+  // let same= [];
+  // arr.forEach((element) => {
+  //   same.push(Math.pow(element, 3));
+  // });
   let powerArr = arr.map(element => {
 
     return Math.pow(2, element);
@@ -113,10 +113,10 @@ Write a function named mapTwoToThe that produces the same output as your
 
 const mapTwoToThe = (arr) => {
   // Solution code here...
-  let same= [];
-  arr.forEach((element) => {
-    same.push(Math.pow(element, 3));
-  });
+  // let same= [];
+  // arr.forEach((element) => {
+  //   same.push(Math.pow(element, 3));
+  // });
   let powerArr = arr.map(element => {
 
     return Math.pow(2, element);
