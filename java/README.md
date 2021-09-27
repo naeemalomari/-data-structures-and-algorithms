@@ -1,11 +1,15 @@
-# Data Structures and Algorithms
 
-## Language: `Java`
+## Insert to Middle of an Array : 
+
+## Having an array and number as an argument and add the number inside the middle of the array.
 
 
-| Challenge  | Link   |
-|:-:|:-:|
-|  Challenge One  | [ReadMe File](https://github.com/naeemalomari/data-structures-and-algorithms/blob/array-reverse/java/ChallengeOne/README.md)  |
-|   |   |
-|   |   |
+## WhiteBoard Process : 
+
+
+![challengeTwo](./assets/ChallengeTwo.PNG)
+
+## Approach & Efficiency : 
+
+# I used for loop and if else statements to solve this challenge.
 
