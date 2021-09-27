@@ -1,7 +1,7 @@
 
 ## Insert to Middle of an Array : 
 
-## Having an array with a specific index, the challenging part that I have to reverse the array which the last index will be the first and the first one should be the last index.
+## Having an array and number as an argument and add the number inside the middle of the array.
 
 
 ## WhiteBoard Process : 
@@ -11,4 +11,4 @@
 
 ## Approach & Efficiency : 
 
-# I used the for loop to return an reversed array.
+# I used for loop and if else statements to solve this challenge.
