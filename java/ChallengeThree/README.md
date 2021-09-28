@@ -1,6 +1,6 @@
-## Insert to Middle of an Array : 
+# Binary Search of Sorted Array
 
-## Having an array and number as an argument and add the number inside the middle of the array.
+## The function will check if the number in exists in the array it will return the index for this number if the number is not exist it function will give you -1 .
 
 
 ## WhiteBoard Process :
@@ -12,4 +12,4 @@
 ## Approach & Efficiency :
 
 
-# I used for loop and if else statements to solve this challenge.
+# I used while  loop and if else statements to solve this challenge.
