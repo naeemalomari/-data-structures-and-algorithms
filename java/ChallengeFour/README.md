@@ -1,7 +1,7 @@
 
-## Insert to Middle of an Array : 
+## add the numbers in the 2 dimensional array  :
 
-## Having an array and number as an argument and add the number inside the middle of the array.
+## Adding the numbers in 2 dimensional array and return one dimensional array.
 
 
 ## WhiteBoard Process : 
@@ -11,4 +11,4 @@
 
 ## Approach & Efficiency : 
 
-# I used for loop and if else statements to solve this challenge.
+# I used nested for loop to solve this challenge.
