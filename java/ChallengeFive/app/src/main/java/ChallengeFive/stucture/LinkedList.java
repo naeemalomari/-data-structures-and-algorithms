@@ -34,7 +34,7 @@ public class LinkedList {
   public String toString() {
     String printing = "";
     if (head == null) {
-      System.out.println("THE LIST IS EMPTY GO TO HELL AND بلط البحر");
+      System.out.println("THE LIST IS EMPTY ");
     } else {
       LinkedListNode current = head;
       while (current != null) {
