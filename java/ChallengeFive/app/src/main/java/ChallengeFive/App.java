@@ -6,14 +6,16 @@ import ChallengeFive.stucture.LinkedList;
 public class App {
   public static void main(String[] args) {
 LinkedList linkedList = new LinkedList();
-    linkedList.insert("ED");
-    linkedList.insert("NE");
-    linkedList.insert("GL");
-    linkedList.insert("NA");
-    linkedList.insert("AI");
-    linkedList.insert("IM");
+    linkedList.insert("E");
+    linkedList.insert("N");
+    linkedList.insert("G");
+    linkedList.insert("N");
+    linkedList.insert("A");
+    linkedList.insert("I");
     linkedList.insert("M.");
     System.out.println(linkedList);
     System.out.println(linkedList.include("N"));
+    System.out.println(linkedList.include("P"));
+
   }
 }
