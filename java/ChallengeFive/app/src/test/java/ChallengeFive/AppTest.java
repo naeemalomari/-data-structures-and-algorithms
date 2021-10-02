@@ -15,7 +15,7 @@ class AppTest {
 //        LinkedList classUnderTest = new LinkedList();
 //    assertEquals();
 //    }
-    @Test void appHasAGreeting(){
-      assertTrue(appHasAGreeting(), "NA");
-    }
+//    @Test void appHasAGreeting(){
+//      assertTrue(appHasAGreeting(), "NA");
+//    }
 }
