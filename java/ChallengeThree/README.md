@@ -6,7 +6,7 @@
 ## WhiteBoard Process :
 
 
-![challengeTwo](/Challenge3.PNG)
+![challengeTwo](/challenge3.jpg)
 
 
 ## Approach & Efficiency :
