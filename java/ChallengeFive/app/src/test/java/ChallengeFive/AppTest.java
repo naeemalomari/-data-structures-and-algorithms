@@ -16,7 +16,6 @@ class AppTest {
 //    assertEquals();
 //    }
     @Test void appHasAGreeting(){
-      LinkedList checking = new LinkedList();
-      assertTrue(checking.include("NA"));
+      assertTrue(appHasAGreeting(), "NA");
     }
 }
