@@ -6,13 +6,10 @@ import ChallengeFive.stucture.LinkedList;
 public class App {
   public static void main(String[] args) {
 LinkedList linkedList = new LinkedList();
-    linkedList.insert("E");
-    linkedList.insert("N");
-    linkedList.insert("G");
     linkedList.insert("N");
     linkedList.insert("A");
     linkedList.insert("I");
-    linkedList.insert("M.");
+    linkedList.insert("M");
     System.out.println(linkedList);
     System.out.println(linkedList.include("N"));
     System.out.println(linkedList.include("P"));
