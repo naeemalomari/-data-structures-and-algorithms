@@ -3,7 +3,7 @@ package ChallengeFive.stucture;
 import ChallengeFive.data.LinkedListNode;
 
 public class LinkedList {
-  LinkedListNode head;
+  public LinkedListNode head;
 
   public void insert(String data) {
     if (head == null) {
@@ -51,17 +51,37 @@ public class LinkedList {
   }
 
   public void insertBefore(String data, String before) {
+    LinkedListNode node = new LinkedListNode(before);
     if (head == null) {
-      LinkedListNode node = new LinkedListNode(data);
+      head = node;
+    } else if (data == head.getData()) {
+      node.next = head;
       head = node;
     } else {
-      LinkedListNode current = head;
-      while(current !=null && current.getNext() !=  )
+      LinkedListNode temp = head;
+      while (temp.next.getData() != data) {
+        temp = temp.next;
       }
+      node.next = temp.next;
+      temp.next = node;
     }
 
+  }
 
+  public void insertAfter(String data , String after){
+    LinkedListNode node = new LinkedListNode(after);
+    if (head == null) {
+      head = node;
+    }else {
+      LinkedListNode temp = head;
+      while (temp.getData() != data) {
+        temp = temp.next;
+      }
+      node.next = temp.next;
+      temp.next = node;
+    }
 
+  }
 
   @Override
   public String toString() {
