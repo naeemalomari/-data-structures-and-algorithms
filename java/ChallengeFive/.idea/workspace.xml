@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/ChallengeFive/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/ChallengeFive/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AppTest.addBeforeAndAfterTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.App" />
       <module name="ChallengeFive.app.main" />
@@ -59,7 +59,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.appHasAGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +69,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="appHasAGreeting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.addBeforeAndAfterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="addBeforeAndAfterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.canInsertMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="canInsertMultiple" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.includesWorkingFine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="includesWorkingFine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,8 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.addBeforeAndAfterTest" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest.appHasAGreeting" />
+        <item itemvalue="JUnit.AppTest.includesWorkingFine" />
+        <item itemvalue="JUnit.AppTest.canInsertMultiple" />
       </list>
     </recent_temporary>
   </component>
