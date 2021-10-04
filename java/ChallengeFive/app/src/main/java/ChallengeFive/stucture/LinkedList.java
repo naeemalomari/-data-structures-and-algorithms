@@ -109,6 +109,9 @@ public class LinkedList {
 
   public String kth(int index)  {
     LinkedListNode current = head;
+    if(head ==null){
+      System.out.println("The list is empty please insert node.");
+    }
     if (index > getSize() - 1 || index < 0) {
       return "Exception";
     }
