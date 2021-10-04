@@ -5,6 +5,7 @@ import ChallengeFive.data.LinkedListNode;
 public class LinkedList {
   public LinkedListNode head;
 
+
   public void insert(String data) {
     if (head == null) {
       LinkedListNode node = new LinkedListNode(data);
@@ -50,38 +51,50 @@ public class LinkedList {
     }
   }
 
+
+
   public void insertBefore(String data, String before) {
     LinkedListNode node = new LinkedListNode(before);
     if (head == null) {
-      head = node;
+      System.out.println("this " + data + " Not Exist in the linked list ");
+      return;
     } else if (data == head.getData()) {
       node.next = head;
       head = node;
     } else {
       LinkedListNode temp = head;
-      while (temp.next.getData() != data) {
+      while (temp.next != null) {
+        if (temp.next.getData() == data) {
+          node.next = temp.next;
+          temp.next = node;
+          return;
+        }
         temp = temp.next;
       }
-      node.next = temp.next;
-      temp.next = node;
+      System.out.println("this " + data + " Not Exist in the linked list ");
     }
-
   }
 
-  public void insertAfter(String data , String after){
+  public void insertAfter(String data, String after) {
     LinkedListNode node = new LinkedListNode(after);
     if (head == null) {
-      head = node;
-    }else {
+      System.out.println("this " + data + " Not Exist in the linked list ");
+      return;
+    } else {
       LinkedListNode temp = head;
-      while (temp.getData() != data) {
+      while (temp != null) {
+        if (temp.getData() == data) {
+          node.next = temp.next;
+          temp.next = node;
+          return;
+        }
         temp = temp.next;
       }
-      node.next = temp.next;
-      temp.next = node;
+      System.out.println("this " + data + " Not Exist in the linked list ");
     }
 
   }
+
 
   @Override
   public String toString() {

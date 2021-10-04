@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/stucture/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/stucture/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.addBeforeAndAfterTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.App" />
       <module name="ChallengeFive.app.main" />
@@ -124,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.addBeforeAndAfterTest" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.includesWorkingFine" />
         <item itemvalue="JUnit.AppTest.canInsertMultiple" />
       </list>
