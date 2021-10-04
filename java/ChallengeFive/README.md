@@ -15,11 +15,11 @@ Singly linked lists contain nodes which have a data field as well as 'next' fiel
 
 ## Challenge Summary:
 
-## Insert, insert Before, and insertAfter to a linked list. 
+## Insert, insert Before, and insertAfter to a linked list.
 
 ## WhiteBoard Process :
 
-![challengeFour](/Challenge6.jpg)
+![challengeSix](/Challenge6.jpg)
 
 ## Approach & Efficiency :
 
