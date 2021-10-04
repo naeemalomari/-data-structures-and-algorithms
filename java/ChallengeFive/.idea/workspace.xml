@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/stucture/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/stucture/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/ChallengeFive/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/ChallengeFive/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +48,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChallengeFive.App" />
-      <module name="ChallengeFive.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ChallengeFive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.happyPath">
+    <configuration name="AppTest.equalThanLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -69,28 +59,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.addBeforeAndAfterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ChallengeFive.app.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ChallengeFive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ChallengeFive" />
-      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="addBeforeAndAfterTest" />
+      <option name="METHOD_NAME" value="equalThanLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.canInsertMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.greaterThanIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +75,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="canInsertMultiple" />
+      <option name="METHOD_NAME" value="greaterThanIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.includesWorkingFine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.happyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +91,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="includesWorkingFine" />
+      <option name="METHOD_NAME" value="happyPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.negativeIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="negativeIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.size1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="size1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest.addBeforeAndAfterTest" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.includesWorkingFine" />
-        <item itemvalue="JUnit.AppTest.canInsertMultiple" />
+        <item itemvalue="JUnit.AppTest.happyPath" />
+        <item itemvalue="JUnit.AppTest.size1" />
+        <item itemvalue="JUnit.AppTest.greaterThanIndex" />
+        <item itemvalue="JUnit.AppTest.negativeIndex" />
+        <item itemvalue="JUnit.AppTest.equalThanLength" />
       </list>
     </recent_temporary>
   </component>
