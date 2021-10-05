@@ -123,13 +123,6 @@ public class LinkedList {
     return current.getData();
   }
 
-  public LinkedListNode getHead1() {
-    return head1;
-  }
-
-  public LinkedListNode getHead() {
-    return head;
-  }
 
   public LinkedList zipLists(LinkedList list1, LinkedList list2){
     if(list1.head == null && list2.head == null){
@@ -145,13 +138,11 @@ public class LinkedList {
       LinkedListNode current2 = list2.head;
       LinkedListNode ref1, ref2;
       while (current1.getNext() != null && current2 != null) {
-
       ref1=current1.getNext();
       ref2= current2.getNext();
       current1.setNext(current2);
       current2.setNext(ref1);
       current1=ref1;
-
 //    (I can use one of them they are the same L:152)  current1=current1.getNext().getNext();
       current2=ref2;
       size++;
@@ -161,7 +152,6 @@ public class LinkedList {
         }
       }
     }
-
 return list1;
   }
 
