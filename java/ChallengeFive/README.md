@@ -15,11 +15,11 @@ Singly linked lists contain nodes which have a data field as well as 'next' fiel
 
 ## Challenge7 Summary:
 
-## kth function which we are going to see what is the index of the data inside the node .
+## zipLists which accepts to linkedLists and merge them to one linkedList.
 
 ## WhiteBoard Process :
 
-![challengeSix](/Challenge7.jpg)
+![challengeSix](/Challenge8.jpg)
 
 ## Approach & Efficiency :
 
