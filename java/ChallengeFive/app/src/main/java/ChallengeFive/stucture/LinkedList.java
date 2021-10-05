@@ -131,9 +131,10 @@ public class LinkedList {
     return head;
   }
 
-  public LinkedList zipLists(LinkedList list1, LinkedList list2) throws Exception {
+  public LinkedList zipLists(LinkedList list1, LinkedList list2){
     if(list1.head == null && list2.head == null){
-      throw new Exception("both lists are empty");
+      System.out.println("Both lists are empty");
+      return null;
     }
     else if (list1.head == null) {
       return list2;

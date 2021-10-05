@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/data/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/data/LinkedListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/stucture/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/stucture/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/ChallengeFive/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/ChallengeFive/AppTest.java" afterDir="false" />
     </list>
@@ -50,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.zipList2">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.App" />
       <module name="ChallengeFive.app.main" />
@@ -64,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.happyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.isEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -74,13 +72,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="happyPath" />
+      <option name="METHOD_NAME" value="isEmptyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.zipList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.zipList3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +88,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="zipList" />
+      <option name="METHOD_NAME" value="zipList3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.zipList1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.zipList4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="zipList1" />
+      <option name="METHOD_NAME" value="zipList4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.zipList2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.zipList5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +120,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="zipList2" />
+      <option name="METHOD_NAME" value="zipList5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.zipList2" />
-        <item itemvalue="JUnit.AppTest.zipList" />
-        <item itemvalue="JUnit.AppTest.zipList1" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest.happyPath" />
+        <item itemvalue="JUnit.AppTest.isEmptyTest" />
+        <item itemvalue="JUnit.AppTest.zipList5" />
+        <item itemvalue="JUnit.AppTest.zipList4" />
+        <item itemvalue="JUnit.AppTest.zipList3" />
       </list>
     </recent_temporary>
   </component>

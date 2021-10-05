@@ -104,7 +104,7 @@ class AppTest {
     testZip1.insert("y");
 
 
-    assertEquals("{ H } -> { p } -> { a } -> { y } -> { p }" , "{ H } -> { p } -> { a } -> { y } -> { p }");
+    assertEquals(" { H }  ->  { p }  ->  { a }  ->  { y }  ->  { p }  ->  NULL " , (testZip.zipLists(testZip,testZip1)).toString());
 
   }
   @Test
@@ -119,7 +119,7 @@ class AppTest {
 //    testZip1.insert("y");
 
 
-    assertEquals(" the list is empty ", " the list is empty ");
+    assertNull(testZip.zipLists(testZip1,testZip), "Both lists are empty");
 
   }
   @Test
@@ -134,7 +134,56 @@ class AppTest {
 //    testZip1.insert("y");
 
 
-    assertEquals("The second list is empty", "The second list is empty");
+
+    assertEquals(" { H }  ->  { a }  ->  { p }  ->  NULL ", (testZip.zipLists(testZip,testZip1)).toString());
+
+  }
+  @Test
+  public void zipList3(){
+
+    LinkedList testZip =new LinkedList();
+    LinkedList testZip1=new LinkedList();
+//    testZip.insert("H");
+//    testZip.insert("a");
+//    testZip.insert("p");
+    testZip1.insert("p");
+    testZip1.insert("y");
+
+
+
+    assertEquals(" { p }  ->  { y }  ->  NULL ", (testZip.zipLists(testZip,testZip1)).toString());
+
+  }
+  @Test
+  public void zipList4(){
+
+    LinkedList testZip =new LinkedList();
+    LinkedList testZip1=new LinkedList();
+    testZip.insert("H");
+//    testZip.insert("a");
+//    testZip.insert("p");
+//    testZip1.insert("p");
+    testZip1.insert("y");
+
+
+
+    assertEquals(" { H }  ->  NULL ", (testZip.zipLists(testZip,testZip1)).toString());
+
+  }
+  @Test
+  public void zipList5(){
+
+    LinkedList testZip =new LinkedList();
+    LinkedList testZip1=new LinkedList();
+//    testZip.insert("H");
+//    testZip.insert("a");
+//    testZip.insert("p");
+//    testZip1.insert("p");
+    testZip1.insert("y");
+
+
+
+    assertEquals(" { y }  ->  NULL ", (testZip.zipLists(testZip,testZip1)).toString());
 
   }
 }
