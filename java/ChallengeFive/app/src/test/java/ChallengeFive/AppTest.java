@@ -92,5 +92,50 @@ class AppTest {
 
     assertEquals(" ", testList.kth(4));
   }
+  @Test
+  public void zipList(){
+
+    LinkedList testZip =new LinkedList();
+    LinkedList testZip1=new LinkedList();
+    testZip.insert("H");
+    testZip.insert("a");
+    testZip.insert("p");
+    testZip1.insert("p");
+    testZip1.insert("y");
+
+
+    assertEquals("{ H } -> { p } -> { a } -> { y } -> { p }" , "{ H } -> { p } -> { a } -> { y } -> { p }");
+
+  }
+  @Test
+  public void zipList1(){
+
+    LinkedList testZip =new LinkedList();
+    LinkedList testZip1=new LinkedList();
+//    testZip.insert("H");
+//    testZip.insert("a");
+//    testZip.insert("p");
+//    testZip1.insert("p");
+//    testZip1.insert("y");
+
+
+    assertEquals(" the list is empty ", " the list is empty ");
+
+  }
+  @Test
+  public void zipList2(){
+
+    LinkedList testZip =new LinkedList();
+    LinkedList testZip1=new LinkedList();
+    testZip.insert("H");
+    testZip.insert("a");
+    testZip.insert("p");
+//    testZip1.insert("p");
+//    testZip1.insert("y");
+
+
+    assertEquals("The second list is empty", "The second list is empty");
+
+  }
 }
 

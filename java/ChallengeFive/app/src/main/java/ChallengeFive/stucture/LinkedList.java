@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class LinkedList {
   public LinkedListNode head;
-
+  public LinkedListNode head1;
   private int size;
   private Exception IOException;
 
@@ -107,9 +107,9 @@ public class LinkedList {
     return size;
   }
 
-  public String kth(int index)  {
+  public String kth(int index) {
     LinkedListNode current = head;
-    if(head ==null){
+    if (head == null) {
       System.out.println("The list is empty please insert node.");
     }
     if (index > getSize() - 1 || index < 0) {
@@ -123,6 +123,46 @@ public class LinkedList {
     return current.getData();
   }
 
+  public LinkedListNode getHead1() {
+    return head1;
+  }
+
+  public LinkedListNode getHead() {
+    return head;
+  }
+
+  public LinkedList zipLists(LinkedList list1, LinkedList list2) throws Exception {
+    if(list1.head == null && list2.head == null){
+      throw new Exception("both lists are empty");
+    }
+    else if (list1.head == null) {
+      return list2;
+    } else if (list2.head == null) {
+      return list1;
+    } else {
+      LinkedListNode current1 = list1.head;
+      LinkedListNode current2 = list2.head;
+      LinkedListNode ref1, ref2;
+      while (current1.getNext() != null && current2 != null) {
+
+      ref1=current1.getNext();
+      ref2= current2.getNext();
+      current1.setNext(current2);
+      current2.setNext(ref1);
+      current1=ref1;
+
+//    (I can use one of them they are the same L:152)  current1=current1.getNext().getNext();
+      current2=ref2;
+      size++;
+        if(current1.getNext() == null){
+          current1.setNext(current2);
+          break;
+        }
+      }
+    }
+
+return list1;
+  }
 
   @Override
   public String toString() {

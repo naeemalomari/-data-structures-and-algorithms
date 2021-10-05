@@ -13,7 +13,7 @@ Singly linked lists contain nodes which have a data field as well as 'next' fiel
 - to string -> Returns: a string representing all the values in the Linked List, formatted as:
   "{ a } -> { b } -> { c } -> NULL"
 
-## Challenge Summary:
+## Challenge7 Summary:
 
 ## kth function which we are going to see what is the index of the data inside the node .
 
