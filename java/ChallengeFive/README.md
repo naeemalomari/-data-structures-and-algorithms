@@ -19,7 +19,7 @@ Singly linked lists contain nodes which have a data field as well as 'next' fiel
 
 ## WhiteBoard Process :
 
-![challengeSix](/Challenge8.jpg)
+![challengeEight](/Challenge8.jpg)
 
 ## Approach & Efficiency :
 
