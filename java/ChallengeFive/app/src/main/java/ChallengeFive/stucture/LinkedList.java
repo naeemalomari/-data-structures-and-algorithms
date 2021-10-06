@@ -201,34 +201,26 @@ public LinkedListNode reversedNode(LinkedListNode node){
 //  }
 //  }
   //I am loosing the ref
-public boolean checkPalindrome(LinkedList list) {
-  ArrayList<String> String  = new ArrayList<>();
-  while(head != null){
-    
+
+
+  public boolean palindrome() {
+    if (this.head ==null){
+      System.out.println("List is empty");
+      return true ;
+    }
+    ArrayList<String> arr = new ArrayList<>();
+    LinkedListNode current = this.head;
+    while (current!=null){
+      arr.add(current.getData());
+      current = current.getNext();
+    }
+    for (int i = 0; i < arr.size()/2; i++) {
+      if (!arr.get(i).equals(arr.get(arr.size()-i-1))){
+        return false;
+      }
+    }
+    return true;
   }
-}
-
-  // To optimize time complixity we can ignore the first loop
-  // we can let rightHead point to mid immediatly
-  // mid = (size%2 == 0)? (size/2) : ((size+1)/2);
-//  LinkedListNode rightHead = head;
-//  LinkedListNode node = head;
-//  while (node != null && node.getNext() != null) {
-//    node = node.getNext().getNext();
-//    rightHead = rightHead.getNext();
-//  }
-//  node = head;
-//  rightHead = reversedNode(rightHead);
-//  while (rightHead != null) {
-//    if (rightHead.getData().equals(node.getData())) {
-//      return true;
-//    } else {
-//      rightHead = rightHead.getNext();
-//      node = node.getNext();
-//    }
-//  }
-//  return false;
-
 
   @Override
   public String toString() {
