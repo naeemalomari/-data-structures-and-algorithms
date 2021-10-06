@@ -3,6 +3,7 @@ package ChallengeFive.stucture;
 import ChallengeFive.data.LinkedListNode;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class LinkedList {
@@ -199,29 +200,34 @@ public LinkedListNode reversedNode(LinkedListNode node){
 //
 //  }
 //  }
+  //I am loosing the ref
 public boolean checkPalindrome(LinkedList list) {
-  LinkedListNode rightHead = head;
-  LinkedListNode node = head;
-  while (node != null && node.getNext() != null) {
-    node = node.getNext().getNext();
-    rightHead = rightHead.getNext();
+  ArrayList<String> String  = new ArrayList<>();
+  while(head != null){
+    
   }
-  node = head;
-  rightHead = reversedNode(rightHead);
-  while (rightHead != null) {
-    if (rightHead.getData().equals(node.getData())) {
-      return true;
-    } else {
-      rightHead = rightHead.getNext();
-      node = node.getNext();
-    }
-  }
-  return false;
 }
+
   // To optimize time complixity we can ignore the first loop
   // we can let rightHead point to mid immediatly
   // mid = (size%2 == 0)? (size/2) : ((size+1)/2);
-
+//  LinkedListNode rightHead = head;
+//  LinkedListNode node = head;
+//  while (node != null && node.getNext() != null) {
+//    node = node.getNext().getNext();
+//    rightHead = rightHead.getNext();
+//  }
+//  node = head;
+//  rightHead = reversedNode(rightHead);
+//  while (rightHead != null) {
+//    if (rightHead.getData().equals(node.getData())) {
+//      return true;
+//    } else {
+//      rightHead = rightHead.getNext();
+//      node = node.getNext();
+//    }
+//  }
+//  return false;
 
 
   @Override
