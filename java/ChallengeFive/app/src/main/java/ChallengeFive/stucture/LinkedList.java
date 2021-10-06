@@ -155,6 +155,75 @@ public class LinkedList {
 return list1;
   }
 
+  public LinkedList reversedLinkedList(LinkedList list){
+    LinkedListNode current =list.head;
+    LinkedListNode previous =null;
+    LinkedListNode next =null;
+    while(current != null){
+      next=current.getNext();
+      current.setNext(previous);
+      previous= current;
+      current=next;
+    }
+    list.head=previous;
+    return list;
+  }
+
+
+public LinkedListNode reversedNode(LinkedListNode node){
+    LinkedListNode prev =null;
+    while(head !=null){
+      LinkedListNode next = head.next;
+      head.next=prev;
+      prev=head;
+      head=next;
+
+    }
+    return prev;
+}
+
+
+
+//
+//  public boolean checkPalindrome(LinkedList list) {
+//  int midIndex = (size-1)/2;
+//  if(head==null){
+//    System.out.println("the list is empty ");
+//  }else{
+//    LinkedListNode current=head;
+//    while(current != null){
+//      for(int i=0;i<= midIndex;i++){
+//          current.getData();
+//      }
+//    }
+//
+//  }
+//  }
+public boolean checkPalindrome(LinkedList list) {
+  LinkedListNode rightHead = head;
+  LinkedListNode node = head;
+  while (node != null && node.getNext() != null) {
+    node = node.getNext().getNext();
+    rightHead = rightHead.getNext();
+  }
+  node = head;
+  rightHead = reversedNode(rightHead);
+  while (rightHead != null) {
+    if (rightHead.getData().equals(node.getData())) {
+      return true;
+    } else {
+      rightHead = rightHead.getNext();
+      node = node.getNext();
+    }
+  }
+  return false;
+}
+  // To optimize time complixity we can ignore the first loop
+  // we can let rightHead point to mid immediatly
+  // mid = (size%2 == 0)? (size/2) : ((size+1)/2);
+
+
+
   @Override
   public String toString() {
     String printing = "";

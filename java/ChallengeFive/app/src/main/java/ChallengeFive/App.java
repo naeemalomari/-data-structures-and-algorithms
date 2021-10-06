@@ -10,9 +10,9 @@ public class App {
     LinkedList linkedList = new LinkedList();
     linkedList.append("N");
     linkedList.append("A");
-//    linkedList.append("I");
-//    linkedList.append("");
-    linkedList.append("M");
+    linkedList.append("A");
+    linkedList.append("N");
+//    linkedList.append("N");
 //    System.out.println(linkedList);
 //    System.out.println(linkedList.include("N"));
 //    System.out.println(linkedList.include("P"));
@@ -24,11 +24,13 @@ public class App {
 //    System.out.println(linkedList.kth(-1));
 //    System.out.println(linkedList.kth(2));
       LinkedList linkedList1 =new LinkedList();
-    linkedList1.append("E");
-      linkedList1.append("E");
+//    linkedList1.append("E");
+//      linkedList1.append("E");
 //    System.out.println(linkedList);
 //    System.out.println(linkedList1);
-    System.out.println(linkedList.zipLists(linkedList, linkedList1));
+    System.out.println(linkedList.checkPalindrome(linkedList));
 //    System.out.println("N E A E M");
+//    System.out.println(linkedList.reversedLinkedList(linkedList));
+
   }
 }
