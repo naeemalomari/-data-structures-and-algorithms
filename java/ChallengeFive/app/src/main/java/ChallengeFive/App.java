@@ -25,7 +25,7 @@ public class App {
 //    linkedList.insertAfter("N", "OOP");
 //    System.out.println(linkedList);
 //    System.out.println(linkedList.kth(-1));
-//    System.out.println(linkedList.kth(2));
+    System.out.println(linkedList.kth(3));
 //      LinkedList linkedList1 =new LinkedList();
 //    linkedList1.append("E");
 //      linkedList1.append("E");
