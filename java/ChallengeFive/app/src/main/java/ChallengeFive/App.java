@@ -6,7 +6,7 @@ import ChallengeFive.LinkedList.LinkedList;
 public class App {
   public static void main(String[] args) {
     LinkedList();
-    
+
   }
   public static void LinkedList(){
     LinkedList linkedList = new LinkedList();
