@@ -19,8 +19,5 @@ class AppTest {
         classUnderTest.insert("M.");
         assertEquals(" { E }  -------->  { N }  -------->  { G }  -------->  { N }  -------->  { A }  -------->  { I }  -------->  { M. }  -------->  NULL ", classUnderTest.toString());
         assertTrue(classUnderTest.include("E"));
-
       }
-
-
 }
