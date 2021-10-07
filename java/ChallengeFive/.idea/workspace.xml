@@ -4,6 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="" />
+
     <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" afterDir="false" />
@@ -41,11 +43,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
+  <component name="RunManager" selected="JUnit.AppTest.appHasAGreeting">
+
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Student\401Java\data-structures-and-algorithms\java\ChallengeFive" />
@@ -132,11 +136,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.appHasAGreeting" />
+        <item itemvalue="Application.App" />
+
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.isEmptyTest" />
         <item itemvalue="JUnit.AppTest.zipList5" />
         <item itemvalue="JUnit.AppTest.zipList4" />
         <item itemvalue="JUnit.AppTest.zipList3" />
+
       </list>
     </recent_temporary>
   </component>
