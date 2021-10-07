@@ -1,26 +1,29 @@
-package ChallengeFive.stucture;
-import ChallengeFive.data.LinkedListNode;
+package ChallengeFive.LinkedList;
+
 public class LinkedList {
-  private LinkedListNode head;
+  private Node head;
+
+
+
   public void insert(String data) {
     if (head == null) {
-      LinkedListNode node = new LinkedListNode(data);
+      Node node = new Node(data);
       head = node;
     } else {
-      LinkedListNode current = head;
+      Node current = head;
       while (current.getNext() != null) {
         current = current.getNext();
       }
-      LinkedListNode node = new LinkedListNode(data);
+      Node node = new Node(data);
       current.setNext(node);
     }
   }
   public boolean include(String data){
     if(head == null){
-      LinkedListNode node =new LinkedListNode(data);
+      Node node =new Node(data);
       head=node;
     }else {
-        LinkedListNode current =head;
+        Node current =head;
         while(current !=null) {
           if (current.getData() == data) {
             return true;
@@ -36,7 +39,7 @@ public class LinkedList {
     if (head == null) {
       System.out.println("THE LIST IS EMPTY ");
     } else {
-      LinkedListNode current = head;
+      Node current = head;
       while (current != null) {
         printing = printing + " { " + current.getData() + " } " + " --------> ";
         current = current.getNext();
