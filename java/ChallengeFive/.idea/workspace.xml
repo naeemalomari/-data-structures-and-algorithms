@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="" />
+
+    <list default="true" id="ab87a300-5d15-46fc-8e3b-522e0a350d17" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ChallengeFive/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +49,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager" selected="JUnit.AppTest.appHasAGreeting">
+
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\401Java\data-structures-and-algorithms\java\ChallengeFive" />
+      <recent name="C:\Users\Student\401Java\data-structures-and-algorithms\java\ChallengeFive\gradle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.App" />
       <module name="ChallengeFive.app.main" />
@@ -57,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.appHasAGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.isEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChallengeFive.app.test" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +80,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="ChallengeFive" />
       <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
-      <option name="METHOD_NAME" value="appHasAGreeting" />
+      <option name="METHOD_NAME" value="isEmptyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.zipList3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="zipList3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.zipList4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="zipList4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.zipList5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChallengeFive.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeFive" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeFive.AppTest" />
+      <option name="METHOD_NAME" value="zipList5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,6 +138,13 @@
       <list>
         <item itemvalue="JUnit.AppTest.appHasAGreeting" />
         <item itemvalue="Application.App" />
+
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.isEmptyTest" />
+        <item itemvalue="JUnit.AppTest.zipList5" />
+        <item itemvalue="JUnit.AppTest.zipList4" />
+        <item itemvalue="JUnit.AppTest.zipList3" />
+
       </list>
     </recent_temporary>
   </component>
