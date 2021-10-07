@@ -1,6 +1,6 @@
 # 5.Singly Linked List
 
-Singly linked lists contain nodes which have a data field as well as 'next' field, which points to the next node in line of nodes.
+Singly linked lists contain nodes which have a Stack.data field as well as 'next' field, which points to the next node in line of nodes.
 
 ## Challenge
 
